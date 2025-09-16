@@ -2,9 +2,10 @@
 layout: ../layouts/AboutLayout.astro
 title: About
 blocks:
-  _block: hero
-  headline: Headline!
-  cover: /astropaper-og.jpg
+  - _block: hero
+    headline: Headline!
+  - _block: hero
+    headline: Another one
 ---
 AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
 
