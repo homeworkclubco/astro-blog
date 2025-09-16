@@ -28,7 +28,7 @@ content:
       - { name: layout, type: string, hidden: true, default: "../layouts/AboutLayout.astro" }
       - { name: title, label: Title, type: string }
       - { name: body, label: Body, type: rich-text, options: { input: public/assets, output: /assets } }
-      - {name: blocks, type: block, blocks: [{name: hero, label: Add Hero Section, component: hero}]}
+      - {name: blocks, type: block, list: true, blocks: [{name: hero, label: Add Hero Section, component: hero}]}
 
 components:
   hero: # 'hero' is the component name/key
